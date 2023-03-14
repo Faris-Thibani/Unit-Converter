@@ -147,4 +147,5 @@ padding: 1rem;
   }
   @media screen and (max-width: 336){
  
+    .input-area {font-size: 1.5rem;
   }
