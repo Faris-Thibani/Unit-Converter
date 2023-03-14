@@ -42,8 +42,8 @@ display:block;
 
 .header{
     background: #6943FF;
-    width: 70vw;
-    height: 30vh;
+    width: 100vw;
+    height: 50vh;
     margin: auto;
     display: block;
     color: white;
@@ -54,11 +54,11 @@ display:block;
     flex-direction: column;
     justify-content: space-around;
     margin: auto;
-    width: 70vw;
+    width: 100vw;
     text-align: center;
     background-color: #F4F4F4;
 
-    height:70vh;
+    height:50vh;
 }
 .length, .mass, .volume{
     display: flex;
