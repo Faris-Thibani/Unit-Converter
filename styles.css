@@ -1,3 +1,6 @@
+:root{
+  font-size: 10px;
+}
 body{
     background-color: #111827;
     margin: 0;
@@ -12,7 +15,7 @@ font-weight: 800;
 line-height: 38px;
 letter-spacing: -0.03em;
 text-align: center;
-margin-top:0;
+margin: 0;
 
 }
 
@@ -29,24 +32,24 @@ display:block;
 }
 
 .btn{
+
 font-family: Inter;
 font-size: 16px;
 font-weight: 500;
-line-height: 24px;
 letter-spacing: 0em;
-text-align: left;
-margin: 20px auto 0 auto;
+text-align: center;
+margin:  20px auto;
 display:block;
-
 }
 
 .header{
     background: #6943FF;
-    width: 100vw;
-    height: 50vh;
+    width: 60vw;
+    height: 30vh;
     margin: auto;
     display: block;
     color: white;
+
 }
 
 .main{
@@ -54,11 +57,10 @@ display:block;
     flex-direction: column;
     justify-content: space-around;
     margin: auto;
-    width: 100vw;
+    width: 60vw;
     text-align: center;
     background-color: #F4F4F4;
-
-    height:50vh;
+    height: 70vh;
 }
 .length, .mass, .volume{
     display: flex;
@@ -141,17 +143,10 @@ padding: 1rem;
     }
   
     .btn {
+      margin-top: 0;
       font-size: 1.5rem;
       padding: 1rem;
       position:relative;
       z-index: 999;
     }
-  }
-  @media screen and (max-width: 336){
- 
-    .input-area {font-size: 1.5rem;
-  }
-  .heading{
-    height:6vh;
-  }
   }
